@@ -1,0 +1,22 @@
+Upgrading Instructions for AweCrud
+===============================
+
+IMPORTANT
+
+The following upgrading instructions are cumulative. That is,
+if you want to upgrade from version A to version C and there is
+version B between A and C, you need to follow the instructions
+for both versions A and B.
+
+General upgrade instructions
+---------------------------
+- Make a backup.
+- Clean up your assets directory.
+- Clean up your cache directory.
+- Remove the "AweCrud" diretory from your application's extensions directory.
+- Check the requirements of the new version in the README.md file.
+- Then follow the install instructions for the new release in the INSTALL file.
+
+Upgrading from 0.5
+---------------------
+No modification required.

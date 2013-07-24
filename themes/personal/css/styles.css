@@ -1,0 +1,26 @@
+body, html, .container-fluid {
+  height: 100%;
+}
+
+#page {
+    padding-top: 0px;
+}
+
+.navbar {
+  width:100%;
+  background:yellow;
+}
+
+
+.content-area {
+  overflow: auto;
+  height: 100%;
+}
+
+.gmap3 {
+	height:100%;
+}
+
+#content {
+	height:80%;
+}

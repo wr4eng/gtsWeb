@@ -1,0 +1,33 @@
+AweCrud FAQ: Frequently Asked Questions
+====================================
+
+How to install AweCrud?
+--------------------
+
+See the README file before installing AweCrud.
+See INSTALL file for instructions.
+Read the Yii guide at <http://www.yiiframework.com/doc/guide>.
+Read the gii documentation at <http://www.yiiframework.com/doc/api/GiiModule>.
+
+How to use AweCrud?
+----------------
+
+See the README.md file before using AweCrud.
+
+After installing, you will see the AweCrud generators on the gii page.
+The AweCrud generators' names start with "AweCrud".
+
+Read the Yii guide at <http://www.yiiframework.com/doc/guide>.
+Read the gii documentation at <http://www.yiiframework.com/doc/api/GiiModule>.
+
+I need help! Where should I go?
+-------------------------------
+
+You can ask you question in the forum discussion for AweCrud at
+http://www.yiiframework.com/forum/index.php/topic/36678-awecrud/
+Please notice that support is given mainly by the community.
+
+AweCrud is not working. How do I report a bug?
+-------------------------------------------
+
+You can report bugs at <https://bitbucket.org/robregonm/awecrud/issues>.

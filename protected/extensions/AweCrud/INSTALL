@@ -1,0 +1,50 @@
+Installing AweCrud 
+===============
+
+Before installing
+-----------------
+
+1) Make sure you read the Yii guide at <http://www.yiiframework.com/doc/guide>.
+2) Read the Gii documentation at <http://www.yiiframework.com/doc/api/GiiModule>.
+3) Read AweCrud README.md file. Please give special attention to the "requirements" section.
+
+Installing
+----------
+
+1) Extract the directory "AweCrud" from the
+downloaded archive into your application's protected/extensions directory.
+
+2) Configure the gii generator path in your application, like:
+'modules' => array(
+	'gii' => array(
+		'class' => 'system.gii.GiiModule',
+		'generatorPaths' => array(
+			'ext.AweCrud.generators', // AweCrud generators
+		),
+	),
+),
+
+3) Configure your application to automatically load the AweCrud component classes
+when needed, like:
+'import' => array(
+	...
+	'ext.AweCrud.components.*', // AweCrud components
+),
+
+4) Register the AweCrud messages directory, like the example below.
+'components' => array(
+	...
+	'messages' => array (
+		'extensionPaths' => array(
+			'AweCrud' => 'ext.AweCrud.messages', // AweCrud messages directory.
+		),
+	),
+),
+
+It is recommended to set at least the 'password' and 'ipFilters' properties
+in gii for security.
+For more information see the gii documentation at <http://www.yiiframework.com/doc/api/GiiModule>.
+
+Additionaly, you may remove the entire 'generators' directory and generator
+configuration (step 2 above) when releasing your Web application for improved
+security.
